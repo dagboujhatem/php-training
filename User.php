@@ -3,14 +3,14 @@
 
 class User
 {
-    public $first_name;
+    public $name;
     public $last_name;
     public $age;
     public $birth_date;
 
     function __construct($first_name, $last_name, $age, $birth_date)
     {
-        $this->first_name = $first_name;
+        $this->name = $first_name;
         $this->last_name = $last_name;
         $this->age = $age;
         $this->birth_date = $birth_date;
@@ -24,6 +24,9 @@ class User
 
 }
 
+/**
+ *  Exemple of execution code
+ */
 
 $user1 = new User('hatem', 'dagbouj', 20, "11/11/1990");
 $user2 = new User('med', 'ben saleh', 20, "11/11/1990");
